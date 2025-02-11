@@ -10,6 +10,10 @@
   background-color: black;
   padding: 2em;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: fit-content;
 }
 
 .instructions > h1 {
@@ -21,6 +25,7 @@
   margin-bottom: 3rem;
   margin-top: 0.5rem;
   padding-top: 0px;
+  max-width: 44ch;
 
 }
 
@@ -29,6 +34,8 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin-bottom: 3rem;
+  justify-items: center;
+
 }
 
 .dice > button {
@@ -40,6 +47,7 @@
 .rollButton {
   background-color: #614102;
   width: 120px;
+  align-self: center;
 }
 
 .frozen {
