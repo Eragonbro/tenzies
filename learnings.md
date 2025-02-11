@@ -8,14 +8,14 @@
         >> In react, state should store data not UI elements
     
 >   **Code**
-        >> ```Array.from({length: 10}, (value, i))=>({property: quantity})```
+        >> ```js Array.from({length: 10}, (value, i))=>({property: quantity})```
 
 ## UPDATE SPECIFIC STATE PROPERTIES
 >   **Principle**:
         >> Only update state of properties of items that meet certain conditions
 
 >   **Example**
-        >> **Conditional update**: update state of "value: ```Math.floor``` of objects whose isFrozen is false
+        >> **Conditional update**: update state of "value: ```js Math.floor``` of objects whose isFrozen is false
         
 
 ## EVENT DRIVEN STATE UPDATES
@@ -23,7 +23,7 @@
         >> **Toggle a property** "isActive", "isChecked" in response to user action
 
 >    **Example**
-        >> ```onClick = {()=>handleFreeze(item.id)}```
+        >> ```js onClick = {()=>handleFreeze(item.id)}```
         >> update state of isFrozen of objects by 
                         ```{...item, isFrozen: !item.isFrozen}```
 
