@@ -9,9 +9,7 @@
     
 >   **Code**
         >> 
-        ```js 
-        Array.from({length: 10}, (value, i))=>({property: quantity})
-        ```
+        ```Array.from({length: 10}, (value, i))=({property: quantity})```
 
 ## UPDATE SPECIFIC STATE PROPERTIES
 >   **Principle**:
@@ -27,9 +25,7 @@
 
 >    **Example**
         >> 
-        ```js 
-        onClick = {()=>handleFreeze(item.id)}
-        ```
+        ```onClick = {()=>handleFreeze(item.id)}```
         >> update state of isFrozen of objects by 
                         ```{...item, isFrozen: !item.isFrozen}```
 
