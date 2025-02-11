@@ -1,5 +1,4 @@
 import React from 'react'
-import {nanoid } from "nanoid"
 import Button from "./Components/Button"
 
 import { useWindowSize } from 'react-use'
