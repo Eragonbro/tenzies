@@ -60,7 +60,7 @@ function App() {
         
         <div className='instructions'>
           <h1>Tenzies</h1>
-          <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls</p>
+          <p><span id='roll'>Roll</span> until all dice are the same. <br></br> <span id='click'>Click</span> each die to freeze it at its current value between rolls</p>
         </div>
 
         <div className='dice'>
